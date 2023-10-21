@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="theme-color" content="#75809B">
+  <link rel="stylesheet" type="text/css" href="Stylesheet.css">
+  <title>WAP Game</title>
+
+  <link rel="shortcut icon" type="image/png" href="Images/Ship.png" sizes="44x44">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js">     </script>
+</head>
+
+<body>
+  <header>
+    <img src="Images/Space.png" class="banner" id="top">
+    <img src="Images/MainLogo.png" class="wapGameLogo">
+  </header>
+  <nav>
+    <a class="navImage--large" href="#News"><img src="Buttons/News.png" alt="News"></a>
+
+    <a class=" navImage--med" href="#Merch"><img src="Buttons/Merch.png" alt="Merch"></a>
+
+    <a class="navImage--small" href="#AboutUs"><img src="Buttons/AboutUs.png" alt="About Us"></a>
+
+    <a class="navImage--med" href="#Links"><img src="Buttons/Links.png" alt="Links"></a>
+
+  </nav>
+  <div class="mainContent">
+    <main>
+      <section id="News" class="biggerMaxArea">
+        <h2>NEWS</h2>
+        <p>Nothing to see here just yet, stay tuned!</p>
+        <br>
+      </section>
+
+      <section id="AboutUs" class="biggerMaxArea">
+        <h2>ABOUT US</h2>
+        <div class="AboutUs">
+          <br>
+          <p>WAP Game is a project made by two best friends, Ethan and Jake. We started the project on the 30th of
+            March, 2021 and have been working on it together ever since. Here is a bit about ourselves:</p>
+          <div class="Ethan">
+            <h3>- Ethan -</h3>
+            <img src="Images/Ethan.png" class="Characters" onmouseover="this.src='Images/EthanWave.png';"
+              onmouseout="this.src='Images/Ethan.png';" alt="WAP Game character for Ethan">
+            <p>Hi! My name is Ethan, and I'm a <span id="ethanAge">XX</span> year old software developer currently
+              working on my degree in Computer Science. Ive
+              been programming and working with computers since age 9, soldered an arduino handheld games console at age
+              11, and have made countless applications, websites, games for myself and for others over the years. I also
+              create all the music and sound effects for my projects. I am currently developing a new platform, eten,
+              and all of my content will be available there soon.
+              <br>
+              <br>
+              For WAP Game, I have written various C# files and worked within the unity engine to help build the game. I
+              have conceptualised many characters, drawn their designs, and made world elements too. I manage the mail
+              and post on the social media, created this very website and wrote all the music. Together with Jake, I
+              also help develop the story and worldbuilding.
+              <br>
+              <br>
+              When Im not programming or making music, I enjoy exploring either on my own, or with Jake. We love to
+              experience what my city, those around it, and places far beyond have to offer. I also like to kick back
+              and play some Nintendo Switch from time to time, im a big fan of platformers and RPGs.
+              <br>
+              <br>
+              My mission statement is to share what I have to offer with the world. I enjoy creating things, and love to
+              see people around me enjoying them too. That being said, I hope you enjoy our game, and everything else we
+              have to offer in the future!
+            </p>
+          </div>
+          <h3>- Jake -</h3>
+          <div class="Jake">
+            <img src="Images/Jake.png" class="Characters" onmouseover="this.src='Images/JakeWave.png';"
+              onmouseout="this.src='Images/Jake.png';" alt="WAP Game character for Jake">
+            <p>
+              Hullo! My name is Jake. Im <span id="jakeAge">XX</span> years old, studying as an apprentice towards a
+              degree
+              in Civil Engineering. Since I was young, Ive always had a drive to make things, from Lego, origami, and
+              arts and crafts, all the way to electronics and even air guns using old plumbing parts. The first time I
+              discovered game-dev was through Scratch, and Ive since moved on to more serious tools like the Unity
+              Engine.
+              <br>
+              <br>
+              Concerning my role in WAP Game, Im responsible for the games artwork, as well as the majority of
+              programming and Unity side of things. I also like to get my hands dirty with story, worldbuilding, and
+              concept design alongside Ethan.
+              <br>
+              <br>
+              If Im not spending my free time on game-dev, youre likely to find me climbing, indoors as well as out;
+              knitting a new jumper; reading books on philosophy; or spending time with my best friend Ethan. (youve met
+              him already) My favourite film involves a flying pig who catches seaplane pirates.
+              <br>
+              <br>
+              I see my contribution towards WAP Game as a magnum opus of everything Ive learned about game development
+              over the last few years. With both our skillsets to complement each other, I trust that the finished
+              product will be everything we hoped for, and more.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <br>
+
+      <section id="Merch" class="biggerMaxArea">
+        <h2>MERCHANDISE</h2>
+        <div class="Merch">
+          <p>You can buy official WAP Game merch! Currently we are selling T-Shirts, hoodies and mugs but are looking to
+            expand
+            in the future. If youre interested,<a href="mailto:wapgamedevs@gmail.com" class=linkInText> drop us an
+              email.</a></p><br>
+          <div class="ProductImages">
+            <img src="Images/HoodieFront.png" onmouseover="this.src='Images/HoodieBack.png';"
+              onmouseout="this.src='Images/HoodieFront.png';" alt="WAP Game hoodie">
+            <img src="Images/Mug.png" alt="WAP Game mug">
+            <img src="Images/TShirtFront.png" onmouseover="this.src='Images/TShirtBack.png';"
+              onmouseout="this.src='Images/TShirtFront.png';" alt="WAP Game hoodie">
+            <p>Hover mouse or tap to see reverse</p>
+          </div>
+      </section>
+
+
+
+      <br>
+      <section id="Links" class="biggerMaxArea">
+        <h2>LINKS</h2>
+        <div class="Links">
+          <a class="Socials" href="https://www.instagram.com/wapgamedevs/"><img src="Images/Instagram.png"
+              alt="WAP Game Instagram"></a>
+
+          <a class="Socials" href="mailto:wapgamedevs@gmail.com"><img src="Images/Mail.png" alt="WAP Game E-Mail"></a>
+
+          <a class="Socials" href="https://twitter.com/wapgamedevs"><img src="Images/Twitter.png"
+              alt="WAP Game Twitter"></a>
+        </div>
+      </section>
+
+
+    </main>
+    <footer>
+      <p> WAP Game 2023<br>© Ethan Wiggs - eten | Jake Pearce - JP Games</p>
+      <a href="#top" class="linkInText">Back to top</a>
+      <script src="Javascript.js"></script>
+      <script src="Ages.js"></script>
+
+    </footer>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,215 @@
+*{
+  margin:0;
+}
+@font-face {
+  font-family: 'JakesPixelPerfect';
+  src: url('Fonts/JakesPixelPerfect.ttf');
+}
+
+header{
+  padding: 3vw;
+  padding-bottom: 1vw;
+  background-color: rgb(117, 128, 155);
+  display: flex; 
+  align-items: center;
+}
+.wapGameLogo{
+  animation: floating 7s ease-in-out infinite;
+  position: absolute;
+  color: #d1d1d1;
+  width: 20%;
+  left: 50%;
+}
+#News{
+padding-top: 20px;
+}
+.banner{
+  height: auto;
+  width: 100%;
+  padding-bottom: 3%;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+body {
+    font-family: 'JakesPixelPerfect', sans-serif;
+    font-size: 40px;
+    color: #0D0F13;
+    background-color: rgb(85, 95, 118);
+}
+nav {
+    background-color: rgb(117, 128, 155);
+    border-bottom: 5px solid rgb(43, 48, 59); 
+    display: block;
+    text-align: center;
+    touch-action: none;
+    user-select: none;
+    padding:0 0 3% 0;
+}
+.navImage--small img {
+  max-width: 273px;
+  max-height: 76.17px;
+  min-width: 160px;
+  width: 20%;
+  height: auto;
+  image-rendering: pixelated;
+  margin-right:1%;
+
+}
+
+
+.navImage--med img {
+    max-width: 191.09px;
+    max-height: 76.17px;
+    min-width: 112px;
+    width: 14%; /* set the maximum width of the images to the width of their container */
+    height: auto; /* allow the height to adjust proportionally to maintain the aspect ratio */
+    image-rendering: pixelated;
+    margin-right:1%;
+
+  
+  }
+
+  .navImage--large img {
+    max-width: 180px;
+    max-height: 76.17px;
+    min-width: 104px;
+    width: 13%; /* set the maximum width of the images to the width of their container */
+    height: auto; /* allow the height to adjust proportionally to maintain the aspect ratio */
+    image-rendering: pixelated;
+    margin-right:1%;
+
+  
+  }
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes floating {
+  0%, 100% {
+    transform: translateX(-50%) translateY(1.5vw);
+  }
+  50% {
+    transform: translateX(-50%) translateY(-1.5vw);
+  }
+}
+
+main{
+    margin: 0 8%;
+}
+.AboutUs{
+  display: inline-block;
+}
+.AboutUs h3{
+  text-align: center;
+}
+.Characters{
+  padding: 2%;
+  width: 20%;
+  height: auto;  
+  image-rendering: pixelated;
+}
+
+h3{
+  Padding: 30px;
+}
+.Ethan img{
+    padding-right: 50px;
+    max-width: 100px;
+    float: left;
+}
+.Jake img{
+    padding-left: 50px;
+    max-width: 100px;
+    float: right;
+}
+.Links{
+  text-align: center;
+  padding: 10px;
+}
+.linkInText{
+  text-decoration-line: underline;
+  color: inherit;
+  
+}
+
+.Socials img{
+  object-fit: fill;
+  image-rendering: pixelated;
+  padding:10px;
+  max-width: 50px;
+  height: 50px;
+}
+.ProductImages img{
+    image-rendering: -moz-crisp-edges; /* Firefox */
+    image-rendering: -o-crisp-edges; /* Opera */
+    image-rendering: -webkit-optimize-contrast; /* Webkit (non-standard naming) */
+    image-rendering: crisp-edges;
+    -ms-interpolation-mode: nearest-neighbor; /* IE (non-standard property) */
+
+    max-width: 30%;
+
+}
+.ProductImages{
+  margin: 2%;
+  border: 5px solid rgb(43, 48, 59);
+  background-color: rgb(117, 128, 155);
+  padding:1%;
+  display: inline-block;
+  text-align: center;
+
+}
+footer{
+  text-align: center;
+  font-size: 30px;
+  padding-bottom:20px;
+}
+@media (max-width: 600px){
+.Socials img{
+  width: 23%;
+}
+
+  
+}
+@media (min-width: 600px){
+  .AboutUs{
+  margin: 0 15%;
+    }
+  
+  .Socials img{
+  image-rendering: pixelated;
+  padding:10px;
+  width: 20%;
+  height:auto;
+}
+}
+@media (min-width: 1000px){
+  .biggerMaxArea{
+    margin: 0 5%;
+  }
+  .AboutUs{
+  
+  margin: 0 15%;
+    }
+  
+  .wapGameLogo{
+    max-width: 200px;
+  }
+}
+@media (min-width: 1600px){
+  .biggerMaxArea{
+    margin: 0 15%;
+  }
+  .AboutUs{
+  margin: 0 20%;
+  }
+  
+}
