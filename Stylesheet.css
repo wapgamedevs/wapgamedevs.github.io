@@ -13,6 +13,7 @@ header{
   display: flex; 
   align-items: center;
 }
+
 .wapGameLogo{
   animation: floating 7s ease-in-out infinite;
   position: absolute;
