@@ -24,6 +24,16 @@ header{
 #News{
 padding-top: 20px;
 }
+
+.video{
+  display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+iframe{
+  border: 5px solid rgb(43, 48, 59);
+
+}
 .banner{
   height: auto;
   width: 100%;
